@@ -18,6 +18,10 @@
 		032B7C0318138EF600FDF750 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 032B7C0218138EF600FDF750 /* Default-568h@2x.png */; };
 		032B7C0618138EF600FDF750 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032B7C0418138EF600FDF750 /* MainStoryboard.storyboard */; };
 		032B7C0918138EF600FDF750 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032B7C0818138EF600FDF750 /* ViewController.m */; };
+		03767A58181391F000C0578C /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A4F181391F000C0578C /* message.png */; };
+		03767A59181391F000C0578C /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A50181391F000C0578C /* search.png */; };
+		03767A5B181391F000C0578C /* spanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A52181391F000C0578C /* spanner.png */; };
+		03767A5C181391F000C0578C /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A53181391F000C0578C /* user.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		032B7C0518138EF600FDF750 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		032B7C0718138EF600FDF750 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		032B7C0818138EF600FDF750 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03767A4F181391F000C0578C /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		03767A50181391F000C0578C /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		03767A52181391F000C0578C /* spanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spanner.png; sourceTree = "<group>"; };
+		03767A53181391F000C0578C /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,9 @@
 				032B7BFB18138EF600FDF750 /* AppDelegate.h */,
 				032B7BFC18138EF600FDF750 /* AppDelegate.m */,
 				032B7C0418138EF600FDF750 /* MainStoryboard.storyboard */,
+				03767A4C181391F000C0578C /* Images */,
+				03767A54181391F000C0578C /* Model */,
+				03767A55181391F000C0578C /* VC */,
 				032B7C0718138EF600FDF750 /* ViewController.h */,
 				032B7C0818138EF600FDF750 /* ViewController.m */,
 				032B7BF318138EF600FDF750 /* Supporting Files */,
@@ -105,6 +116,31 @@
 				032B7C0218138EF600FDF750 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03767A4C181391F000C0578C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				03767A4F181391F000C0578C /* message.png */,
+				03767A50181391F000C0578C /* search.png */,
+				03767A52181391F000C0578C /* spanner.png */,
+				03767A53181391F000C0578C /* user.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		03767A54181391F000C0578C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03767A55181391F000C0578C /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +199,10 @@
 				032B7C0118138EF600FDF750 /* Default@2x.png in Resources */,
 				032B7C0318138EF600FDF750 /* Default-568h@2x.png in Resources */,
 				032B7C0618138EF600FDF750 /* MainStoryboard.storyboard in Resources */,
+				03767A58181391F000C0578C /* message.png in Resources */,
+				03767A59181391F000C0578C /* search.png in Resources */,
+				03767A5B181391F000C0578C /* spanner.png in Resources */,
+				03767A5C181391F000C0578C /* user.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +338,7 @@
 				032B7C0E18138EF600FDF750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
