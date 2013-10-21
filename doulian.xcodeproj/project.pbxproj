@@ -27,6 +27,8 @@
 		03767A621813B85100C0578C /* safe.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A611813B85100C0578C /* safe.png */; };
 		03767A641813B9C800C0578C /* Heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A631813B9C800C0578C /* Heart.png */; };
 		03767A661813BA4E00C0578C /* Piechart.png in Resources */ = {isa = PBXBuildFile; fileRef = 03767A651813BA4E00C0578C /* Piechart.png */; };
+		03767A691813D2AD00C0578C /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 03767A681813D2AD00C0578C /* Status.m */; };
+		03767A6C1813D37000C0578C /* StatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03767A6B1813D37000C0578C /* StatusCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +57,10 @@
 		03767A611813B85100C0578C /* safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safe.png; sourceTree = "<group>"; };
 		03767A631813B9C800C0578C /* Heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Heart.png; sourceTree = "<group>"; };
 		03767A651813BA4E00C0578C /* Piechart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Piechart.png; sourceTree = "<group>"; };
+		03767A671813D2AD00C0578C /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		03767A681813D2AD00C0578C /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
+		03767A6A1813D37000C0578C /* StatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusCell.h; sourceTree = "<group>"; };
+		03767A6B1813D37000C0578C /* StatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,8 @@
 		03767A54181391F000C0578C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				03767A671813D2AD00C0578C /* Status.h */,
+				03767A681813D2AD00C0578C /* Status.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +162,8 @@
 		03767A55181391F000C0578C /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				03767A6A1813D37000C0578C /* StatusCell.h */,
+				03767A6B1813D37000C0578C /* StatusCell.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -236,6 +246,8 @@
 				032B7BF918138EF600FDF750 /* main.m in Sources */,
 				032B7BFD18138EF600FDF750 /* AppDelegate.m in Sources */,
 				032B7C0918138EF600FDF750 /* ViewController.m in Sources */,
+				03767A691813D2AD00C0578C /* Status.m in Sources */,
+				03767A6C1813D37000C0578C /* StatusCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -288,7 +288,7 @@
         <scene sceneID="gs0-0w-XYt">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="klg-tt-oqd" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="d2a-8d-EkF">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -336,7 +336,7 @@
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
             <relationships>
                 <relationship kind="action" name="backgroundTap:"/>
-                <relationship kind="action" name="buttonPressed:"/>
+                <relationship kind="action" name="buttonPressed:" candidateClass="UIButton"/>
                 <relationship kind="action" name="lowercase"/>
                 <relationship kind="action" name="sliderChanged:" candidateClass="UISlider"/>
                 <relationship kind="action" name="switchChanged:" candidateClass="UISwitch"/>
